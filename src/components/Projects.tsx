@@ -7,6 +7,12 @@ type Props = {};
 export default function Projects({}: Props) {
   const projects = [
     {
+      name: "3D Laptop",
+      image: "/laptop.png",
+      description: "3D laptop with an interactive site. From ThreeJS Journey",
+      link: "https://enchanting-belekoy-a73182.netlify.app/",
+    },
+    {
       name: "Jet-Sea",
       image: "/js-logo.png",
       description: "Website for a freight forwarding company",
