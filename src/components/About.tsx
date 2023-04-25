@@ -36,7 +36,7 @@ function About({}: Props) {
         }}
       />
       <div className="space-y-10 px-0 md:px-10">
-        <h4 className="text-4xl font-semibold">A little about me</h4>
+        <h4 className="text-4xl font-semibold text-[#0076B6] underline">A little about me</h4>
         <p className="text-base">
           Wow so where do i start? I actually was a Medical Laboraotry
           Technologist for a couple years and worked in various labs around the

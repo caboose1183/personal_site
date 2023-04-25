@@ -34,7 +34,7 @@ function Hero({}: Props) {
         </h2>
         <h1 className="text-5xl lg:text-6xl font-semibold px-10">
           <span className="mr-3">{text}</span>
-          <Cursor cursorColor="green"></Cursor>
+          <Cursor cursorColor="#0076B6"></Cursor>
         </h1>
 
         <div className="pt-5">
@@ -46,6 +46,9 @@ function Hero({}: Props) {
           </Link>
           <Link href="#skills">
             <button className="heroButton">Skills</button>
+          </Link>
+          <Link href="#contact">
+            <button className="heroButton">Contact</button>
           </Link>
         </div>
       </div>
