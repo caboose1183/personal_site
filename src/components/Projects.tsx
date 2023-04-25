@@ -50,6 +50,7 @@ export default function Projects({}: Props) {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1.5 }}
+            key={project.name}
           >
             <motion.img
               src={`${project.image}`}

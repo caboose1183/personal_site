@@ -27,7 +27,7 @@ function Contact({}: Props) {
 
       <div className="flex flex-col space-y-10">
         <h4 className="text-4xl font-semibold text-center">
-          Feel free to reach out and talk! Please!!! I'm lonely...
+          Feel free to reach out and talk! Please!!! I am lonely...
         </h4>
 
         <div className="space-y-10">
