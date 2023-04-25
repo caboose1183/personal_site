@@ -32,17 +32,17 @@ function Contact({}: Props) {
 
         <div className="space-y-10">
           <div className="flex items-center space-x-5 justify-center">
-            <PhoneIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
+            <PhoneIcon className="text-[#0076B6] h-7 w-7 animate-pulse" />
             <p className="text-2xl">+1 416 908 1131</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
-            <EnvelopeIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
+            <EnvelopeIcon className="text-[#0076B6] h-7 w-7 animate-pulse" />
             <p className="text-2xl">sidneypang@hotmail.co.uk</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
-            <MapPinIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
+            <MapPinIcon className="text-[#0076B6] h-7 w-7 animate-pulse" />
             <p className="text-2xl">Toronto, Ontario</p>
           </div>
         </div>
@@ -80,7 +80,7 @@ function Contact({}: Props) {
           ></textarea>
           <button
             type="submit"
-            className="bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg "
+            className="bg-[#0076B6] py-5 px-10 rounded-md text-white font-bold text-lg "
           >
             Submit
           </button>

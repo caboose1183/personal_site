@@ -10,12 +10,14 @@ export default function Projects({}: Props) {
       name: "Jet-Sea",
       image: "/js-logo.png",
       description: "Website for a freight forwarding company",
+      link: "https://lively-tartufo-193b04.netlify.app/",
     },
     {
       name: "3D Portal",
       image: "/portal.png",
       description:
         "3D portal scene with baked lighting and shaders. From ThreeJS Journey",
+      link: "https://symphonious-biscotti-3acc16.netlify.app/",
     },
     {
       name: "Bay Street Bets",
@@ -23,6 +25,7 @@ export default function Projects({}: Props) {
         "https://raw.githubusercontent.com/diavolosz/BayStreetBets/master/client/public/img/stock5.png",
       description:
         "Full stack application where users can search, buy, and sell stocks to compete with other users! Visualized data with ChartJS",
+      link: "https://github.com/diavolosz/BayStreetBets",
     },
     {
       name: "Pinnet Wiki Maps",
@@ -30,6 +33,7 @@ export default function Projects({}: Props) {
         "https://raw.githubusercontent.com/diavolosz/Pinnet/master/sampleImage/mapPinDisplay.png",
       description:
         "A full stack web map application where users can discover new places to visit! Users can share, edit, create and add locations of interest. ",
+      link: "https://github.com/diavolosz/Pinnet",
     },
   ];
 
@@ -63,9 +67,14 @@ export default function Projects({}: Props) {
 
             <div className="space-y-10 px-0 md:px-10 max-w-6xl">
               <h4 className="text-4xl font-semibold text-center">
-                <span className="underline decoration-[#0076B6]/50 ">
-                  {project.name}
-                </span>
+                <a
+                  href={`${project.link}`}
+                  target="_blank"
+                >
+                  <span className="underline decoration-[#0076B6]/50">
+                    {project.name}
+                  </span>
+                </a>
               </h4>
               <p className="text-lg text-center md:text-left">
                 {project.description}
