@@ -116,7 +116,7 @@ function Skills({}: Props) {
         Hover over a skill to see my skill progression!
       </h3>
 
-      <div className="grid grid-cols-4 gap-5 ">
+      <div className="grid grid-cols-4 gap-2 md:gap-5">
         {skills?.slice(0, skills.length / 2).map((skill) => (
           <Skill
             key={skill.name}
