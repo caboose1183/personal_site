@@ -7,6 +7,12 @@ type Props = {};
 export default function Projects({}: Props) {
   const projects = [
     {
+      name: "Amazon Clone",
+      image: "/amazon_clone.png",
+      description: "A clone of Amazon. Users can sign in using their Google accounts, add to their basket, and purchase using Stripe. Hooked up to Firestore to update a database.",
+      link: "https://amazon-clone-eight-theta.vercel.app/",
+    },
+    {
       name: "3D Laptop",
       image: "/laptop.png",
       description: "3D laptop with an interactive site. From ThreeJS Journey",
@@ -74,10 +80,7 @@ export default function Projects({}: Props) {
 
             <div className="space-y-10 px-0 md:px-10 max-w-6xl">
               <h4 className="text-4xl font-semibold text-center">
-                <a
-                  href={`${project.link}`}
-                  target="_blank"
-                >
+                <a href={`${project.link}`} target="_blank">
                   <span className="underline decoration-[#0076B6]/50">
                     {project.name}
                   </span>

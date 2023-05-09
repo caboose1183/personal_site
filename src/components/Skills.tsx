@@ -99,6 +99,21 @@ function Skills({}: Props) {
       image: "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
       progression: "65%",
     },
+    {
+      name: "Redux",
+      image: "https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png",
+      progression: "45%",
+    },
+    {
+      name: "Firebase",
+      image: "https://logowik.com/content/uploads/images/firebase.jpg",
+      progression: "40%",
+    },
+    {
+      name: "Stripe",
+      image: "https://www.pngkit.com/png/detail/124-1246922_stripe-logo-stripe-png-logo.png",
+      progression: "50%",
+    },
   ];
 
   return (
